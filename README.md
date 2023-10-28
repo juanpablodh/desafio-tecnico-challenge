@@ -27,17 +27,17 @@ A continuación, ejecutar la siguiente secuencia de pasos para poder ejecutar y 
 Clonar repositorio
 
 ```bash
-     git clone https://github.com/juanpablodh/desafio-backup.git
+     git clone https://github.com/juanpablodh/desafio-tecnico-challenge.git
 ```
 
 Nos movemos a la carpeta del proyecto
 ```bash
-    cd desafio-backup
+    cd desafio-tecnico-challenge
 ```
 
 Construir la Imagen
 ```bash
-    docker build -t challenge-juanpablodh .  
+    docker build -t desafio-tecnico-challenge .  
 ```
 
 ## Configuración
