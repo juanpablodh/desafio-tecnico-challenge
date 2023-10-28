@@ -79,7 +79,7 @@ Ejecutamos Container
 
 http://localhost/3000
 
-![WelcomePage](https://github.com/juanpablodh/desafio-tecnico-challenge/blob/master/1.png?raw=true)
+![WelcomePage](https://github.com/juanpablodh/desafio-tecnico-challenge/blob/master/img//1.png?raw=true)
 
 Para dar uso a nuestra API, podemos guiarnos de la documentación elaborada con Open API. Para eso hacemos clic sobre el botón [Explore Docuementation]
 
@@ -90,8 +90,8 @@ Esta documentación de Swagger describe las especificaciones de la API para un s
 
 Se construyo una bonita documentación usando Swagger Open Api 3.0
 
-![Documentation](https://github.com/juanpablodh/desafio-tecnico-challenge/blob/master/2.png?raw=true)
-![Documentation](https://github.com/juanpablodh/desafio-tecnico-challenge/blob/master/3.png?raw=true)
+![Documentation](https://github.com/juanpablodh/desafio-tecnico-challenge/blob/master/img/2.png?raw=true)
+![Documentation](https://github.com/juanpablodh/desafio-tecnico-challenge/blob/master/img/3.png?raw=true)
 
 Puedes acceder mediante el botón [Explore Documentation] o directamente en http://localhost:3000/api/v1/docs
 
