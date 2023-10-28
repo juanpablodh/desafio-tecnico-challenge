@@ -1,0 +1,22 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+
+  app:
+    environment:
+      - BEARER_TOKEN=Bearer APP_USR-123807146164700-102719-4b199c8721309eb8c46b5f2f099f790c-149445797
+      - SERVER_PORT=3000
+      - PROCESS_BATCH_SIZE=200
+      - PROCESS_GROUP_ID_SIZE=20
+      - DB_URI=mongodb://mongodb:27017
+      - DB_NAME=challenge-meli
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
